@@ -1,7 +1,14 @@
-@mixin button {
+.button {
+  padding: 0.5em 2em;
   background-color: #a1a1a1;
-  color: #fff;
-  width: 5rem;
-  height: 3rem;
+  color: #000;
   font-size: 1rem;
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: line-through;
+  background-color: #000;
+  color: red;
+  font-style: italic;
 }
