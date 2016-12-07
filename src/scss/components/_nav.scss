@@ -20,6 +20,12 @@
 
   &__a {
     text-decoration: none;
+    color: #fff;
+  }
+
+  &__a:hover {
+    text-decoration: line-through;
+    font-style: italic;
     color: red;
   }
 }
