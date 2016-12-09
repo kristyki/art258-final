@@ -7,7 +7,7 @@
   }
 
   &__copy {
-    padding: 1rem 6rem;
+    padding: 3rem 9rem;
   }
 
   &__header-image {
@@ -26,5 +26,9 @@
   &__header-image {
     width: 50%;
     height: 400px;
+  }
+
+  &__copy {
+    padding: 3rem 6rem;
   }
 }
