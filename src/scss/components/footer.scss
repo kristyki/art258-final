@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  padding: 1em 5em;
+
+  &__ul {
+    list-style: none;
+  }
+
+  &__li {
+    justify-content: space-between;
+  }
+
+  &__contact {
+    &:last-of-type {
+      margin-left: 1rem;
+    }
+  }
+}
