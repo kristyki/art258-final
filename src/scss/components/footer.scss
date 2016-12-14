@@ -1,9 +1,12 @@
 .footer {
   display: flex;
   padding: 1em 5em;
+  background: #e0d8da;
 
   &__ul {
     list-style: none;
+    padding: 0 6rem;
+    padding-left: 0;
   }
 
   &__li {
