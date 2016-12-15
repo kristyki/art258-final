@@ -27,19 +27,22 @@
   }
 }
 
-@media screen and (min-width: $max-mobile-width) {
+@media screen and (max-width: $max-mobile-width) {
   .hero {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-  }
 
-  &__header-image {
-    width: 50%;
-    height: 400px;
-  }
+    &__header-image {
+      width: 100%;
+    }
 
-  &__copy {
-    padding: 3rem 6rem;
+    &__copy {
+      padding: 3rem 1rem;
+    }
+
+    &__copy02 {
+      padding: 3rem 1rem;
+    }
   }
 }

@@ -33,4 +33,16 @@
     font-style: italic;
     color: $green;
   }
+
+  @media screen and (max-width: $max-mobile-width) {
+    .main-nav {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+
+      &__li {
+        font-size: 0.75em;
+      }
+    }
+  }
 }

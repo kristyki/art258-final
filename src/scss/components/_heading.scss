@@ -12,4 +12,11 @@
     transition: opacity 0.5s ease;
     opacity: 1;
   }
+
+  @media screen and (max-width: $max-mobile-width) {
+    .heading {
+      display: flex;
+      align-items: center;
+    }
+  }
 }
